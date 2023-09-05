@@ -1,0 +1,39 @@
+@media (min-width: 0px) and (max-width: 575.98px),
+  (min-width: 576px) and (max-width: 991.98px) {
+  .recent-match-card-container {
+    background-color: #0f172a;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    height: 350px;
+  }
+  .competing-teams-logo {
+    width: 40px;
+  }
+  .recent-match-competing-team-name {
+    /* font-weight: bold; */
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 16px;
+    text-align: center;
+  }
+  .recent-match-match-result {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 14px;
+    text-align: center;
+  }
+  .recent-match-match-status {
+    font-weight: bold;
+    color: #d91c1f;
+    font-family: 'Bree Serif';
+    font-size: 16px;
+    text-align: center;
+  }
+}

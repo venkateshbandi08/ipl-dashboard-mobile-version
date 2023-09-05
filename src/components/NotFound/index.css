@@ -1,0 +1,17 @@
+@media (min-width: 0px) and (max-width: 575.98px),
+  (min-width: 576px) and (max-width: 991.98px) {
+  .not-found-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    height: 100vh;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .page-not-found-heading {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+  }
+}
